@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-repeat: no-repeat;
+    
     background-color: #e0e8ff;
     text-align: center;
     background-size: cover;
