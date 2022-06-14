@@ -25,8 +25,8 @@ body{
     width: 100%;
     position: absolute;
 }
-h3{
 
+h3{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -46,6 +46,16 @@ h1{
     font-size: 59.8974px;
     line-height: 90px;
     color: #FDB813;
+}
+
+.text .btn{
+    background-color: #FDB813;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    padding: 10px 30px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 p{
