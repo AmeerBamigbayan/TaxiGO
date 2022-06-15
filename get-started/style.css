@@ -40,17 +40,43 @@ h1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .content .btn1{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-flex-direction: column;
-align-items: center;
-padding: 10px 25px;
-width: 70%;
-background: #FDB813;
-border-radius: 100px;
+    margin: 78px auto  0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+    background: #FDB813;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content .btn1:hover{
+    background: #fdd066;
+    color: #fff;
+}
+
+.content .btn2{
+    font-family: 'poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 27px;
+
+color: #FDB813;
 }
