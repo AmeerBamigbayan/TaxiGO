@@ -62,15 +62,37 @@ input::-webkit-input-placeholder {
     color: #C5C2C2;
     }
 
-.password{
+
+#id_password{
     position: absolute;
-left: 8%; 
+    left: 8%; 
 right: 8.27%;
 top: 48.77%;
 bottom: 45.32%;
 background: rgba(196, 196, 196, 0.3);
 border-radius: 10px;
 }
+
+
+#togglePassword{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 80%;
+    top: 48.5%;
+    bottom: 45.5%;
+}
+
+@media (max-width : 380px) {
+   #togglePassword{
+    top: 47.5%;
+   } 
+}
+@media (max-height : 736px) {
+    #togglePassword{
+     top: 47.5%;
+    } 
+ }
 
 .input-container {
     display: flex;
