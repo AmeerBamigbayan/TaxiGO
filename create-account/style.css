@@ -46,14 +46,17 @@ background: url(img/email.png) no-repeat scroll rgba(196, 196, 196, 0.3);
 background-size: 17px 17px;
 background-position-x: 10px;
 background-position-y: center;
-padding-left:30px;
+padding-left:35px;
 border-radius: 10px;
 border: none;
 }
 
-.email:placeholder{
-    color: #ffffff;
-}
+input::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #C5C2C2;
+    }
 
 .password{
     position: absolute;
