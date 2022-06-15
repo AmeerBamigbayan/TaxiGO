@@ -36,6 +36,10 @@ line-height: 50px;
 color: #000000;
 }
 
+input{
+   margin-bottom: 20px;
+   margin-top: -20px;
+}
 .email{
     position: absolute;
 left: 8%;
