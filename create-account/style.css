@@ -76,9 +76,9 @@ border-radius: 10px;
 
 #togglePassword{
     position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 80%;
+    width: 25px;
+    height: 25px;
+    left: 85%;
     top: 48.5%;
     bottom: 45.5%;
 }
@@ -86,11 +86,15 @@ border-radius: 10px;
 @media (max-width : 380px) {
    #togglePassword{
     top: 47.5%;
+    width: 25px;
+    height: 25px;
    } 
 }
 @media (max-height : 736px) {
     #togglePassword{
      top: 47.5%;
+     width: 25px;
+    height: 25px;
     } 
  }
 
