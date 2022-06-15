@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    font-family: 'poppins', sans-serif;;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    background-color: #fff;
+    /*text-align: center;*/
+    background-size: cover;
+}
+
+.arrow img{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 22px;
+top: 44px;
+}
+
+h1{
+    position: absolute;
+left: 32px;
+top: 110px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 41.0256px;
+line-height: 50px;
+color: #000000;
+}
+
+.email{
+    position: absolute;
+left: 8%;
+right: 8.27%;
+top: 38.67%;
+bottom: 55.42%;
+
+background: rgba(196, 196, 196, 0.3);
+border-radius: 10px;
+}
+
+.password{
+    position: absolute;
+left: 8%;
+right: 8.27%;
+top: 48.77%;
+bottom: 45.32%;
+
+background: rgba(196, 196, 196, 0.3);
+border-radius: 10px;
+}
+

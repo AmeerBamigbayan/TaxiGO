@@ -23,6 +23,9 @@ height: 40px;
 left: 22px;
 top: 44px;
 }
+a{
+    text-decoration: none;
+}
 
 .content{
     margin: 0 auto;
