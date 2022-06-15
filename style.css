@@ -11,7 +11,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     background-color: #e0e8ff;
     text-align: center;
     background-size: cover;
@@ -57,8 +56,11 @@ h1{
     width: 70%;
     margin: 0 auto;
     cursor: pointer;
+    text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+}
 p{
     color: #FFFFFF;
     position: relative;
