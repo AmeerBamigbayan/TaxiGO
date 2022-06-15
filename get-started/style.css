@@ -47,7 +47,7 @@ h1{
 .content .btn1{
     display: flex;
     justify-content: center;
-    margin: 78px auto  0 auto;
+    margin: 30px auto  0 auto;
     flex-direction: column;
     align-items: center;
     padding: 10px;
