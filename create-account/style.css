@@ -69,7 +69,11 @@ input::-webkit-input-placeholder {
 right: 8.27%;
 top: 48.77%;
 bottom: 45.32%;
-background: rgba(196, 196, 196, 0.3);
+background: url(img/padlock.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+background-size: 17px 17px;
+background-position-x: 10px;
+background-position-y: center;
+padding-left:35px;
 border-radius: 10px;
 }
 
@@ -90,6 +94,7 @@ border-radius: 10px;
     height: 25px;
    } 
 }
+
 @media (max-height : 736px) {
     #togglePassword{
      top: 47.5%;
