@@ -75,6 +75,7 @@ background-position-x: 10px;
 background-position-y: center;
 padding-left:35px;
 border-radius: 10px;
+border: none;
 }
 
 
@@ -109,3 +110,26 @@ border-radius: 10px;
     margin-bottom: 15px;
   }
   
+
+  .content{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+
+.content .check{
+    position: absolute;
+ 
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #000000;
+}
