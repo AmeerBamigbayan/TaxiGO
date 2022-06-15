@@ -96,6 +96,14 @@ border: none;
    } 
 }
 
+@media (max-width : 720px) {
+    #togglePassword{
+     top: 48%;
+     width: 25px;
+     height: 25px;
+    } 
+ }
+ 
 @media (max-height : 736px) {
     #togglePassword{
      top: 47.5%;
