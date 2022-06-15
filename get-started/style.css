@@ -34,3 +34,23 @@ top: 44px;
     width: 259px;
     height: 218.52px;
 }
+
+h1{
+    line-height: 39px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.content .btn1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+flex-direction: column;
+align-items: center;
+padding: 10px 25px;
+width: 70%;
+background: #FDB813;
+border-radius: 100px;
+}
