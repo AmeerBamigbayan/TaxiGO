@@ -8,11 +8,11 @@
 
 body{
     font-family: 'poppins', sans-serif;;
-   /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;*/
+    justify-content: center;
     background-color: #fff;
-    /*text-align: center;*/
+    text-align: center;
     background-size: cover;
 }
 
@@ -113,23 +113,43 @@ border: none;
 
   .content{
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     position: absolute;
-    top: 60%;
-    left: 35%;
+    top: 57%;
 }
 
-.content .check{
-    position: absolute;
- 
+.checkbox{
+    height: 12px;
+    width: 12px;
+}
 
-font-family: 'Poppins';
-font-style: normal;
+.remember{
+    font-style: normal;
 font-weight: 500;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
+font-size: 12px;
 
+}
 
-color: #000000;
+.content .btn1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    background: #FDB813;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;;
 }
