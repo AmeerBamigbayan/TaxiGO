@@ -51,31 +51,43 @@ input::-webkit-input-placeholder {
     color: #7C7C7C;
     }
 .fullname{
-padding: 13px 90px;
-background:rgba(196, 196, 196, 0.3);
-padding-left:15px;
-border-radius: 10px;
-border: none;
-margin-top: 10px;
+    padding: 13px 90px;
+    background:rgba(196, 196, 196, 0.3);
+    padding-left:15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
 }
 
 .nickname{
     padding: 13px 90px;
-background: rgba(196, 196, 196, 0.3);
-padding-left:15px;
-border-radius: 10px;
-border: none;
-margin-top: 10px;
+    background: rgba(196, 196, 196, 0.3);
+    padding-left:15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
 }
 
 .dob{
     padding: 13px 90px;
-background: url(img/dob.png) no-repeat scroll rgba(196, 196, 196, 0.3);
-background-size: 17px 17px;
-background-position-x: 246px;
-background-position-y: center;
-padding-left:15px;
-border-radius: 10px;
-border: none;
-margin-top: 10px;
+    background: url(img/dob.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+    background-size: 17px 17px;
+    background-position-x: 246px;
+    background-position-y: center;
+    padding-left:15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.email{
+    padding: 13px 90px;
+    background: url(img/email.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+    background-size: 20px 17px;
+    background-position-x: 246px;
+    background-position-y: center;
+    padding-left:15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
 }
