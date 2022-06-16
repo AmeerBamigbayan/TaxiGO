@@ -68,3 +68,14 @@ border: none;
 margin-top: 10px;
 }
 
+.dob{
+    padding: 13px 90px;
+background: url(img/dob.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+background-size: 17px 17px;
+background-position-x: 246px;
+background-position-y: center;
+padding-left:15px;
+border-radius: 10px;
+border: none;
+margin-top: 10px;
+}
