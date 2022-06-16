@@ -52,10 +52,16 @@ input::-webkit-input-placeholder {
     }
 .fullname{
 padding: 13px 90px;
-background: url(img/email.png) no-repeat scroll rgba(196, 196, 196, 0.3);
-background-size: 17px 17px;
-background-position-x: 10px;
-background-position-y: center;
+background:rgba(196, 196, 196, 0.3);
+padding-left:15px;
+border-radius: 10px;
+border: none;
+margin-top: 10px;
+}
+
+.nickname{
+    padding: 13px 90px;
+background: rgba(196, 196, 196, 0.3);
 padding-left:15px;
 border-radius: 10px;
 border: none;
