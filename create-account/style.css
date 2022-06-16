@@ -71,8 +71,8 @@ right: 8.27%;
 top: 48.77%;
 bottom: 45.32%;
 background: url(img/padlock.png) no-repeat scroll rgba(196, 196, 196, 0.3);
-background-size: 17px 17px;
-background-position-x: 10px;
+background-size: 20px 20px;
+background-position-x: 7.3px;
 background-position-y: center;
 padding-left:35px;
 border-radius: 10px;
@@ -180,8 +180,29 @@ color: rgba(0, 0, 0, 0.6);
 
 .apple{
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .google{
     margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+color: #FFB400;
 }
