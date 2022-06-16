@@ -84,10 +84,22 @@ input::-webkit-input-placeholder {
     padding: 13px 90px;
     background: url(img/email.png) no-repeat scroll rgba(196, 196, 196, 0.3);
     background-size: 20px 17px;
-    background-position-x: 246px;
+    background-position-x: 245px;
     background-position-y: center;
     padding-left:15px;
     border-radius: 10px;
     border: none;
     margin-top: 10px;
+}
+
+.phone{
+    padding: 13px 90px;
+background: url(img/ng.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+background-size: 25px 17px;
+background-position-x: 243px;
+background-position-y: center;
+padding-left: 15px;
+border-radius: 10px;
+border: none;
+margin-top: 10px;
 }
