@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    font-family: 'poppins', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+
+.arrow img{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 22px;
+top: 44px;
+}
