@@ -115,3 +115,28 @@ select {
     font-size: 10px;
     color: #7C7C7C;
   }
+
+  .content .btn1{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto  70px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+    background: #FDB813;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
