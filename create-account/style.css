@@ -34,6 +34,7 @@ font-weight: 700;
 font-size: 41.0256px;
 line-height: 50px;
 color: #000000;
+text-align: start;
 }
 
 input{
@@ -176,3 +177,11 @@ font-size: 12px;
 line-height: 18px;
 color: rgba(0, 0, 0, 0.6);
 }  
+
+.apple{
+    margin-top: 12px;
+}
+
+.google{
+    margin-top: 15px;
+}
