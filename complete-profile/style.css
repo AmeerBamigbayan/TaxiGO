@@ -34,3 +34,20 @@ top: 44px;
     left: 20%;
     top: 54px;
 }
+
+.content img{
+    margin-top: 110px;
+}
+
+
+.email{
+padding: 13px 0px;
+background: url(img/email.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+background-size: 17px 17px;
+background-position-x: 10px;
+background-position-y: center;
+padding-left:35px;
+border-radius: 10px;
+border: none;
+}
+
