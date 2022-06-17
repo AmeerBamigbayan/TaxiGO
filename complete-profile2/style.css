@@ -80,15 +80,18 @@ top: 44px;
 }
 
 .dob{
-    padding: 13px 90px;
     background: url(img/dob.png) no-repeat scroll rgba(196, 196, 196, 0.3);
     background-size: 17px 17px;
     background-position-x: 246px;
     background-position-y: center;
-    padding-left:15px;
+    padding: 12px 10px;
     border-radius: 10px;
-    border: none;
-    margin-top: 10px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 15px;
 }
 
 .email{
