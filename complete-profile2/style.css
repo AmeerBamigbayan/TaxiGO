@@ -110,15 +110,33 @@ top: 44px;
 }
 
 .phone{
-    padding: 13px 90px;
-background: url(img/ng.png) no-repeat scroll rgba(196, 196, 196, 0.3);
-background-size: 25px 17px;
-background-position-x: 243px;
-background-position-y: center;
-padding-left: 15px;
-border-radius: 10px;
-border: none;
-margin-top: 10px;
+    background: url(img/ng.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+    background-size: 25px 17px;
+    background-position-x: 243px;
+    background-position-y: center;
+    padding: 12px 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.gender{
+    background: url(img/dropdown.png) no-repeat scroll rgba(196, 196, 196, 0.3);
+    background-size: 20px 12px;
+    background-position-x: 245px;
+    background-position-y: center;
+    padding: 12px 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 15px;
 }
 select {
     padding: 13px 200px;
