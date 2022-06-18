@@ -61,3 +61,28 @@ top: 44px;
                 inset 0 0 .5rem rgba(0, 255, 0, .5);
     border-color: rgba(0, 255, 0, .5);
 }
+
+.content .btn1{
+    display: flex;
+    justify-content: center;
+    margin: 70px auto  70px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+    background: #FDB813;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
