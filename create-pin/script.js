@@ -6,7 +6,7 @@ nums.forEach((num, index) => {
     
     num.addEventListener('keyup', () => {
         if (num.value.length == 1) {
-            if (nums[nums.length - 1].value.length == 1) form.submit()
+            if (nums[nums.length - 1].value.length == 1) form()
             nums[parseInt(num.dataset.id) + 1].focus()
         }
     })
