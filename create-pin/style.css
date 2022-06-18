@@ -38,7 +38,7 @@ top: 44px;
 .container {
     display: flex;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 30px;
 }
 .num {
@@ -48,15 +48,13 @@ top: 44px;
     text-align: center;
     outline: none;
     padding: 1px 30px;
-    margin: 0 1rem;
+    margin: 0 auto;
     font-size: 3rem;
     border: 1px solid #000000;
     border-radius: .5rem;
     color: rgba(0, 255, 0, .5);
 }
-.space {
-    width: 3rem;
-}
+
 .num:focus,
 .num:valid {
     box-shadow: 0 0 .5rem rgba(0, 255, 0, .5),
