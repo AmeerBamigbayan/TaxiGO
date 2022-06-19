@@ -98,3 +98,24 @@ margin-top: 150px;
 a{
     text-decoration: none;
 }
+
+
+.popup{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popup:target{
+    visibility: visible;
+    opacity: 1;
+}
