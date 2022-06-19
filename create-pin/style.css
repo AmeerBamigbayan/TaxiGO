@@ -127,10 +127,15 @@ a{
     max-width: 70%;
     padding: 10px;
     border-radius: 25px;
-
-  
 }
 
+.popupcontent img{
+    margin-bottom: -100px;
+}
+
+.popupcontent p{
+    margin-bottom: 100px;
+}
 a{
     font-size: 21px;
     font-weight: 600;
