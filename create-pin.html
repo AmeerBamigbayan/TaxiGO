@@ -12,9 +12,7 @@
     <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="loader">
-        <div></div>
-    </div>
+    
     <div class="arrow">
         <a href="complete-profile2.html"><img src="get-started/img/arrow.png" /></a>
      </div>
@@ -33,17 +31,21 @@
         </form>
     <a href="#popup"><div class="btn1">Continue</div></a>
     <div id="popup" class="popup">
-      
+       
         <div class="popupcontent">
             <img src="create-pin/img/fireworks.png" alt="">
             <p>Hold on while we redirect you <br>to your new home screen</p>
             <a href="#" class="popupclose">&times;</a>
+            <div class="pre">
+            <div class="loader">
+                <div></div>
+            </div></div>
         </div>
     </div>
     </div>
     <script>
         $(window).on('load',function(){
-            $(".loader").fadeOut(1000);
+            //$(".loader").fadeOut(1000);//
             $(".content").fadeIn(1000);
         });
     </script>
