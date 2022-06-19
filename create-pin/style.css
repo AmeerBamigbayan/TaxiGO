@@ -109,10 +109,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000;
+    background: #595959;
     transition: all 0.4s;
     visibility: hidden;
-    opacity: 0;
+    opacity: 1;
 }
 
 .popup:target{
@@ -124,9 +124,11 @@ a{
     position: relative;
     background: #fff;
     width: 500px;
-    max-width: 90%;
-    padding: 1em 2em;
-    border-radius: 4px;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+
+  
 }
 
 a{
