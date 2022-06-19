@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="create-pin/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <!----<meta http-equiv = "refresh" content = "5; url = create-pin.html" />--->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -29,7 +29,7 @@
 
             </div>
         </form>
-    <a href="#popup"><div class="btn1">Continue</div></a>
+    <a href="#popup"  onclick="redirect()"><div class="btn1">Continue</div></a>
     <div id="popup" class="popup">
        
         <div class="popupcontent">
@@ -40,15 +40,15 @@
             <div class="loader">
                 <div></div>
             </div></div>
+            
         </div>
     </div>
     </div>
     <script>
-        $(window).on('load',function(){
-            //$(".loader").fadeOut(1000);//
-            $(".content").fadeIn(1000);
-        });
-    </script>
+        setTimeout(function redirect(){
+           window.location.href = 'create-pin.html';
+        }, 5000);
+     </script>
   <script src="create-pin/script.js"></script>
 </body>
 </html>
