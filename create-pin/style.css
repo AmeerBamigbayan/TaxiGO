@@ -119,3 +119,26 @@ a{
     visibility: visible;
     opacity: 1;
 }
+
+.popupcontent{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+a{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.popupclose{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #585585;
+    text-decoration: none;
+    font-size: 36px;
+}
