@@ -1,1 +1,56 @@
-<h1 style="font-size: 100px;">Enable Location Page(still working on it)</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxiGO | Complete Your Profile</title>
+    <link rel="stylesheet" href="create-pin/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!----<meta http-equiv = "refresh" content = "5; url = create-pin.html" />--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="arrow">
+        <a href="complete-profile2.html"><img src="get-started/img/arrow.png" /></a>
+     </div>
+     <div class="content">
+        <h3>Complete Your Profile</h3>    
+       <p>Add New PIN to make your <br>account more secure</p>
+        <form action="">
+            <div class="container">
+           
+                <input type="text" class="num" maxlength="1" required>
+                <input type="text" class="num" maxlength="1" required>
+                <input type="text" class="num" maxlength="1" required>
+                <input type="text" class="num" maxlength="1" required>
+
+            </div>
+        </form>
+    <a href="#popup"  onclick="redirect()"><div class="btn1">Continue</div></a>
+    <div id="popup" class="popup">
+       
+        <div class="popupcontent">
+            <img src="create-pin/img/fireworks.png" alt="">
+            <p>Hold on while we redirect you <br>to your new home screen</p>
+            <a href="#" class="popupclose">&times;</a>
+            <div class="pre">
+            <div class="loader">
+                <div></div>
+            </div></div>
+            
+        </div>
+    </div>
+    </div>
+    <script>
+        function redirect(){
+        setTimeout(function(){
+           window.location.href = 'enable-location.html';
+        }, 5000);
+    }
+     </script>
+  <script src="create-pin/script.js"></script>
+</body>
+</html>
