@@ -106,6 +106,8 @@ a{
 
 .popupcontent img{
     margin-bottom: -100px;
+    padding-top: 30px;
+    width: 50%;
 }
 
 .popupcontent p{
