@@ -29,13 +29,13 @@ margin-top: 150px;
 .content .btn1{
     display: flex;
     justify-content: center;
-    margin: 70px auto  70px auto;
+    margin: -60px auto  35px auto;
     flex-direction: column;
     align-items: center;
     padding: 10px;
     width: 70%;
     background: #FDB813;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #fff;
     font-family: 'Poppins';
     font-style: normal;
@@ -101,4 +101,3 @@ a{
     text-decoration: none;
     font-size: 26px;
 }
-
