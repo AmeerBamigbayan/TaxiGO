@@ -51,12 +51,13 @@ margin-top: 150px;
 .content .btn2{
     display: flex;
     justify-content: center;
-    margin: -10px auto  35px auto;
+    margin: -20px auto  35px auto;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    width: 70%;
-    background: #FDB813;
+    width: 85%;
+    background: transparent;
+    border: 1px solid #FDB813;
     border-radius: 10px;
     color: #fff;
     font-family: 'Poppins';
