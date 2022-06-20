@@ -102,34 +102,3 @@ a{
     font-size: 26px;
 }
 
-
-.pre{
-    width: 40%;
-    margin: 0 auto;
-}
-.loader{
-     
-    width: 100%;
-    overflow: hidden;
-    margin: -70px auto 30px auto;
-
-}
-.loader>div{
-    margin: 0 auto;
-    height: 30px;
-    width: 30px;
-    border: 3px solid #ffffff;
-    border-left-color: #FDB813;
-    border-left-style: dotted;
-    border-bottom-color: #FDB813;
-    border-bottom-style: dotted;
-    border-top-color: #FDB813;
-    border-top-style: dotted;
-    border-radius: 50%;
-    animation: spin 1.5s infinite linear;
-}
-@keyframes spin{
-    100%{
-        transform: rotate(360deg);
-    }
-}
