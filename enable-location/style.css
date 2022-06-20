@@ -33,6 +33,28 @@ margin-top: 150px;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    width: 85%;
+    background: #FDB813;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.content .btn2{
+    display: flex;
+    justify-content: center;
+    margin: -10px auto  35px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
     width: 70%;
     background: #FDB813;
     border-radius: 10px;
@@ -46,6 +68,8 @@ margin-top: 150px;
     text-decoration: none;
     
 }
+
+
 
 a{
     text-decoration: none;
