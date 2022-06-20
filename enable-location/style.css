@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    font-family: 'Poppins', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+
+.content p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 19px;
+color: #000000;
+margin-top: 150px;
+}
+
+
+.content .btn1{
+    display: flex;
+    justify-content: center;
+    margin: 70px auto  70px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+    background: #FDB813;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.popup{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #595959;
+    transition: all 0.4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popupcontent{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.popupcontent img{
+    margin-bottom: -100px;
+}
+
+.popupcontent p{
+    margin-bottom: 100px;
+}
+a{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.popupclose{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+
+.pre{
+    width: 40%;
+    margin: 0 auto;
+}
+.loader{
+     
+    width: 100%;
+    overflow: hidden;
+    margin: -70px auto 30px auto;
+
+}
+.loader>div{
+    margin: 0 auto;
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ffffff;
+    border-left-color: #FDB813;
+    border-left-style: dotted;
+    border-bottom-color: #FDB813;
+    border-bottom-style: dotted;
+    border-top-color: #FDB813;
+    border-top-style: dotted;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
