@@ -83,3 +83,12 @@ h1{
 
 color: #FDB813;
 }
+
+@media (min-width: 768px) {
+    .content{
+    width: 362px;
+    margin: 0 auto;
+    align-self: center;
+    }
+    
+}
